@@ -1,0 +1,195 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* bsi_quick_inventory_from_product
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-26 07:24+0000\n"
+"PO-Revision-Date: 2022-12-26 07:24+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: bsi_quick_inventory_from_product
+#: model:ir.actions.act_window,name:bsi_quick_inventory_from_product.action_create_inventory_order_wizard
+msgid " Create Transfers/Inventory Order"
+msgstr "Créer des transferts/ordre d'inventaire"
+
+#. module: bsi_quick_inventory_from_product
+#: model_terms:ir.ui.view,arch_db:bsi_quick_inventory_from_product.create_inventory_order_wizard
+msgid "Cancel"
+msgstr "Annuler"
+
+#. module: bsi_quick_inventory_from_product
+#: model_terms:ir.ui.view,arch_db:bsi_quick_inventory_from_product.create_inventory_order_wizard
+msgid "Create and Confirm order"
+msgstr "Créer et confirmer la commande"
+
+#. module: bsi_quick_inventory_from_product
+#: model_terms:ir.ui.view,arch_db:bsi_quick_inventory_from_product.create_inventory_order_wizard
+msgid "Create and New order"
+msgstr "Créer et nouvelle commande"
+
+#. module: bsi_quick_inventory_from_product
+#: model_terms:ir.ui.view,arch_db:bsi_quick_inventory_from_product.create_inventory_order_wizard
+msgid "Create and View order"
+msgstr "Créer et afficher la commande"
+
+#. module: bsi_quick_inventory_from_product
+#: model_terms:ir.ui.view,arch_db:bsi_quick_inventory_from_product.create_inventory_order_wizard
+msgid "Create order"
+msgstr "Créer une commande"
+
+#. module: bsi_quick_inventory_from_product
+#: model:ir.model,name:bsi_quick_inventory_from_product.model_create_inventory_order_line_wizard
+msgid "CreateInventoryOrderLineWizard"
+msgstr "AssistantCréerunelignedecommandedestock"
+
+#. module: bsi_quick_inventory_from_product
+#: model:ir.model,name:bsi_quick_inventory_from_product.model_create_inventory_order_wizard
+msgid "CreateInventoryOrderWizard"
+msgstr "Assistantdecréationdecommanded'inventaire"
+
+#. module: bsi_quick_inventory_from_product
+#: model:ir.model.fields,field_description:bsi_quick_inventory_from_product.field_create_inventory_order_line_wizard__create_uid
+#: model:ir.model.fields,field_description:bsi_quick_inventory_from_product.field_create_inventory_order_wizard__create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: bsi_quick_inventory_from_product
+#: model:ir.model.fields,field_description:bsi_quick_inventory_from_product.field_create_inventory_order_line_wizard__create_date
+#: model:ir.model.fields,field_description:bsi_quick_inventory_from_product.field_create_inventory_order_wizard__create_date
+msgid "Created on"
+msgstr "Créé sur"
+
+#. module: bsi_quick_inventory_from_product
+#: model:ir.model.fields,field_description:bsi_quick_inventory_from_product.field_create_inventory_order_wizard__partner_id
+msgid "Customer"
+msgstr "Cliente"
+
+#. module: bsi_quick_inventory_from_product
+#: model:ir.model.fields,field_description:bsi_quick_inventory_from_product.field_create_inventory_order_line_wizard__product_uom_qty
+msgid "Demand"
+msgstr "Demande"
+
+#. module: bsi_quick_inventory_from_product
+#: model:ir.model.fields,field_description:bsi_quick_inventory_from_product.field_create_inventory_order_line_wizard__description
+msgid "Description"
+msgstr "Description"
+
+#. module: bsi_quick_inventory_from_product
+#: model:ir.model.fields,field_description:bsi_quick_inventory_from_product.field_create_inventory_order_line_wizard__location_dest_id
+#: model:ir.model.fields,field_description:bsi_quick_inventory_from_product.field_create_inventory_order_wizard__location_dest_id
+msgid "Destination Location"
+msgstr "Lieu de destination"
+
+#. module: bsi_quick_inventory_from_product
+#: model:ir.model.fields,field_description:bsi_quick_inventory_from_product.field_create_inventory_order_line_wizard__display_name
+#: model:ir.model.fields,field_description:bsi_quick_inventory_from_product.field_create_inventory_order_wizard__display_name
+msgid "Display Name"
+msgstr "Afficher un nom"
+
+#. module: bsi_quick_inventory_from_product
+#: model:ir.model.fields,field_description:bsi_quick_inventory_from_product.field_create_inventory_order_line_wizard__id
+#: model:ir.model.fields,field_description:bsi_quick_inventory_from_product.field_create_inventory_order_wizard__id
+msgid "ID"
+msgstr "IDENTIFIANT"
+
+#. module: bsi_quick_inventory_from_product
+#: model:ir.model.fields,field_description:bsi_quick_inventory_from_product.field_create_inventory_order_line_wizard____last_update
+#: model:ir.model.fields,field_description:bsi_quick_inventory_from_product.field_create_inventory_order_wizard____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: bsi_quick_inventory_from_product
+#: model:ir.model.fields,field_description:bsi_quick_inventory_from_product.field_create_inventory_order_line_wizard__write_uid
+#: model:ir.model.fields,field_description:bsi_quick_inventory_from_product.field_create_inventory_order_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: bsi_quick_inventory_from_product
+#: model:ir.model.fields,field_description:bsi_quick_inventory_from_product.field_create_inventory_order_line_wizard__write_date
+#: model:ir.model.fields,field_description:bsi_quick_inventory_from_product.field_create_inventory_order_wizard__write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: bsi_quick_inventory_from_product
+#: model:ir.model.fields,field_description:bsi_quick_inventory_from_product.field_create_inventory_order_line_wizard__multiple_line
+msgid "Multiple Line"
+msgstr "Ligne multiple"
+
+#. module: bsi_quick_inventory_from_product
+#: model:ir.model.fields,field_description:bsi_quick_inventory_from_product.field_create_inventory_order_wizard__picking_type_id
+msgid "Operation Type"
+msgstr "Type d'opération"
+
+#. module: bsi_quick_inventory_from_product
+#: model:ir.model.fields,field_description:bsi_quick_inventory_from_product.field_create_inventory_order_line_wizard__order_id
+msgid "Order"
+msgstr "Ordre"
+
+#. module: bsi_quick_inventory_from_product
+#: model_terms:ir.ui.view,arch_db:bsi_quick_inventory_from_product.create_inventory_order_wizard
+msgid "Order Line"
+msgstr "Ligne de commande"
+
+#. module: bsi_quick_inventory_from_product
+#: model:ir.model.fields,field_description:bsi_quick_inventory_from_product.field_create_inventory_order_wizard__payment_term_id
+msgid "Payment Terms"
+msgstr "Modalités de paiement"
+
+#. module: bsi_quick_inventory_from_product
+#: model:ir.model.fields,field_description:bsi_quick_inventory_from_product.field_create_inventory_order_line_wizard__product_id
+msgid "Product"
+msgstr "Produit"
+
+#. module: bsi_quick_inventory_from_product
+#: model:ir.model.fields,field_description:bsi_quick_inventory_from_product.field_create_inventory_order_line_wizard__quantity_done
+msgid "Quantity Done"
+msgstr "Quantité effectuée"
+
+#. module: bsi_quick_inventory_from_product
+#: model:ir.model.fields,field_description:bsi_quick_inventory_from_product.field_create_inventory_order_line_wizard__reserved_availability
+msgid "Quantity Reserved"
+msgstr "Quantité réservée"
+
+#. module: bsi_quick_inventory_from_product
+#: model:ir.model.fields,field_description:bsi_quick_inventory_from_product.field_create_inventory_order_wizard__scheduled_date
+msgid "Quotation Date"
+msgstr "Date de cotation"
+
+#. module: bsi_quick_inventory_from_product
+#: model:ir.model.fields,field_description:bsi_quick_inventory_from_product.field_create_inventory_order_wizard__user_id
+msgid "Salesperson"
+msgstr "Vendeuse"
+
+#. module: bsi_quick_inventory_from_product
+#: model:ir.model.fields,field_description:bsi_quick_inventory_from_product.field_create_inventory_order_line_wizard__location_id
+#: model:ir.model.fields,field_description:bsi_quick_inventory_from_product.field_create_inventory_order_wizard__location_id
+msgid "Source Location"
+msgstr "Emplacement de la source"
+
+#. module: bsi_quick_inventory_from_product
+#: model:ir.model.fields,field_description:bsi_quick_inventory_from_product.field_create_inventory_order_line_wizard__unit_price
+msgid "Unit Price"
+msgstr "Prix unitaire"
+
+#. module: bsi_quick_inventory_from_product
+#: model:ir.model.fields,field_description:bsi_quick_inventory_from_product.field_create_inventory_order_line_wizard__product_uom
+msgid "UoM"
+msgstr "UdM"
+
+#. module: bsi_quick_inventory_from_product
+#: model:ir.model.fields,field_description:bsi_quick_inventory_from_product.field_create_inventory_order_wizard__move_ids_without_package
+msgid "inventory Order Line"
+msgstr "Inventaire Ligne de commande"
+
+#. module: bsi_quick_inventory_from_product
+#: model_terms:ir.ui.view,arch_db:bsi_quick_inventory_from_product.create_inventory_order_wizard
+msgid "salary entery"
+msgstr "entrée de salaire"

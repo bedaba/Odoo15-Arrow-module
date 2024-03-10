@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record model="ir.config_parameter" id="pl_auth_validate_url">
+            <field name="key">pl_auth.pl_auth_validate_url</field>
+<!--            <field name="value">https://plementus.com//auth_validate_token</field>-->
+            <field name="value">http://137.74.246.238:8069/auth_validate_token</field>
+        </record>
+
+
+    </data>
+</odoo>

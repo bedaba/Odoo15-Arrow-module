@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+   <record id="create_inventory_order_wizard" model="ir.ui.view">
+      <field name="name">create.inventory.order.wizard</field>
+      <field name="model">create.inventory.order.wizard</field>
+      <field name="arch" type="xml">
+         <form string="salary entery">
+            <group name="sale_header">
+               <group>
+                  <field name="partner_id" required="True"/>
+                  <field name="user_id"/>
+               </group>
+               <group name="order_detail">
+                  <field name="scheduled_date" required="True"/>
+                  <field name="location_dest_id"/>
+                  <field name="location_id"/>
+                  <field name="picking_type_id"/>
+               </group>
+            </group>
+            <notebook>
+               <page string="Order Line">
+                  <field name="move_ids_without_package">
+                     <tree editable="bottom">
+                        <field name="product_id" />
+                        <field name="unit_price" />
+                        <field name="location_dest_id"/>
+                        <field name="location_id"/>
+                        <field name="description"/>
+                        <field name="product_uom"/>
+                        <field name="product_uom_qty"/>
+                        <field name="reserved_availability"/>
+                        <field name="quantity_done"/>
+                     </tree>
+                  </field>
+               </page>
+            </notebook>
+            <footer>
+               <button name="create_order" string="Create order" class="oe_highlight" type="object" />
+               <button name="create_view_inventory_order" type="object" string="Create and View order" class="oe_highlight"/>
+               <button name="create_new_order" type="object" string="Create and New order" class="oe_highlight"/>
+               <button name="create_and_confirm" type="object" class="oe_highlight" string="Create and Confirm order"/>
+               <button string="Cancel" class="oe_link" special="cancel" />
+            </footer>
+         </form>
+      </field>
+   </record>
+   <record model="ir.actions.act_window" id="action_create_inventory_order_wizard">
+      <field name="name"> Create Transfers/Inventory Order</field>
+      <field name="type">ir.actions.act_window</field>
+      <field name="res_model">create.inventory.order.wizard</field>
+      <field name="view_mode">form</field>
+      <field name="target">new</field>
+      <field name="binding_model_id" ref="product.model_product_product" />
+      <field name="view_id" ref="bsi_quick_inventory_from_product.create_inventory_order_wizard"> </field>
+   </record>
+</odoo>
